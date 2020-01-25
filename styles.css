@@ -103,8 +103,8 @@ a {
 .two-five-three-five {
     grid-column-start: 2;
     grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end:   5;
+    grid-row-start: 4;
+    grid-row-end:   6;
 }
 
 .sub-main {
@@ -118,8 +118,8 @@ a {
 .two-five-five-six {
     grid-column-start: 2;
     grid-column-end: 5;
-    grid-row-start: 5;
-    grid-row-end:   6;
+    grid-row-start: 6;
+    grid-row-end:   7;
 }
 
 .sign-up-header {
@@ -134,7 +134,7 @@ a {
 .seven-ten-three {
     grid-column-start: 7;
     grid-column-end: 10;
-    grid-row-start: 3;
+    grid-row-start: 4;
 }
 
 input {
@@ -206,7 +206,7 @@ button {
     grid-column-start: 7;
     grid-column-end: 10;
     grid-row-start: 3;
-    grid-row-end:   5;
+    grid-row-end:   6;
 }
 
 .sub-form {
@@ -233,7 +233,7 @@ button {
 .seven-ten-five-seven {
     grid-column-start: 7;
     grid-column-end: 10;
-    grid-row-start: 5;
+    grid-row-start: 6;
     grid-row-end:   7;
 }
 
