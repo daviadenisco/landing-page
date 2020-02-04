@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <link rel='stylesheet' href='styles.css'>
     <title>Thesis</title>
 </head>
@@ -31,7 +31,7 @@
             <form>
                 <input id='text-input' type='text' placeholder='Name'>
                 <input id='email' type='email' placeholder='E-mail'>
-                <input id='password' type='password' placeholder='Password'>
+                <input id='password' type='password' placeholder='Password' class='fa fa-eye-slash' aria-hidden='true'>
                 <button>Sign up ></button>
             </form>
         </div>
@@ -52,19 +52,18 @@
         <a href='#' alt='footer' class='eight-nine-ten grid-item bottom'>
             <span>PRIVACY POLICY</span>
         </a>
-        <nav class="top-nav ten grid-item">
-            <div id='hamburger-menu' class="grid-item">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-            </div>
-            <ul id="hamburger-menu-options">
-                <li><a href="index.html">About</a></li>
-                <li><a href="test.html">Integrations</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>	
+        <div id='hamburger-menu' class='ten grid-item'>
+            <div class='line line-1'></div>
+            <div class='line line-2'></div>
+            <div class='line line-3'></div>
+        </div>
+        <!-- <div id='hamburger-menu-options' class='nine-ten-one-three'>
+            <span id='close'>x</span>
+            <li><a href='#'>About</a></li>
+            <li><a href='#'>Integrations</a></li>
+            <li><a href='#'>Pricing</a></li>
+            <li><a href='#'>Contacts</a></li>
+        </div> -->
     </div>
     <script src='app.js' async defer></script>
 </body>
